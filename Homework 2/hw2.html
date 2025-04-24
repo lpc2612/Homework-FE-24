@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landify</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fff;
+      color: #111;
+      text-align: center;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 0px;
+      max-width: 1110px;
+      margin: auto;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      color: #18191F;
+    }
+
+    .app-buttons {
+      display: flex;
+      gap: 12px;
+    }
+
+    .hero {
+      padding: 96px 165px;
+    }
+
+    .hero h1 {
+      font-size: 72px;
+      font-weight: 800;
+      margin: auto;
+      line-height: 98px;
+    }
+
+    .hero button {
+      margin-top: 32px;
+      background-color: #8b5cf6;
+      color: white;
+      border: none;
+      padding: 12px 32px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer; /* the mouse cursor to be displayed when pointing over an element. */
+    }
+
+    .hero button:hover {
+      background-color: #7c3aed;
+    }
+
+    .mockup {
+      margin-top: 4rem;
+    }
+
+    .mockup img {
+      width: 300px;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="logo.png" alt="">
+      <div>About</div>
+      <div>Products</div>
+      <div>Pricing</div>
+      <div>Blog</div>
+      <div>Jobs</div>
+      <div>More</div>
+    </nav>
+    <div class="app-buttons">
+      <img src="gg-play.png" alt="Google Play">
+      <img src="app-store.png" alt="App Store">
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Track your product sales from<br>anywhere, anytime.</h1>
+    <button class="cta">Start selling</button>
+
+    <div class="mockup">
+      <img src="iPhone X.png" alt="App mockup">
+    </div>
+  </section>
+</body>
+</html>
